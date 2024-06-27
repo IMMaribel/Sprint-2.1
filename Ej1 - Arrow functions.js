@@ -55,3 +55,9 @@ const printNumbers = (num) => {
 const num = [1,2,3,4,5];
 
 printNumbers(num);
+
+// *EJ5 - Arrow function con 'setTimeout'
+
+setTimeout(() => 
+    {console.log('Estamos usando setTimeout.');
+    }, "3000");
