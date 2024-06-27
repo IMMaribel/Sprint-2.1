@@ -23,3 +23,19 @@ console.log(add(6,13));
 const randomNumber = () => Math.floor(Math.random() * 101);
 
 console.log(randomNumber());
+
+
+// *EJ3 - Uso de 'this'
+
+class Person{
+    constructor(name){
+        this.name = name;
+    }
+
+
+   greet = () => console.log(`Hola, ${this.name}.`);
+
+}
+
+    const person = new Person('Maribel');
+    person.greet()
