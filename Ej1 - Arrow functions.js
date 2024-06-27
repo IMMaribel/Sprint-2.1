@@ -1,5 +1,8 @@
 'use strict'
 
+//// EJERCICIO 1.2: ARROW FUNCTIONS
+
+// *EJ1 - conversión de funciones
 // Regular Function
 
 // function add(a,b){
@@ -9,7 +12,6 @@
 // console.log(add(5,4));
 
 
-// *EJ1 - conversión de funciones
 // Arrow function 
 
 let add = (a,b) => a + b;
