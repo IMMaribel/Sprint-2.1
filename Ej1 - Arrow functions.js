@@ -9,9 +9,17 @@
 // console.log(add(5,4));
 
 
-
-// Arrow function
+// *EJ1 - conversión de funciones
+// Arrow function 
 
 let add = (a,b) => a + b;
 
 console.log(add(6,13));
+
+
+
+// * Ej2 - Arrow function sin parámetros
+
+const randomNumber = () => Math.floor(Math.random() * 101);
+
+console.log(randomNumber());
