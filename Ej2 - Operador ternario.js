@@ -52,3 +52,19 @@ function trobarMaxim(a,b,c){
 trobarMaxim(8,5,1);
 trobarMaxim(3,6,2);
 trobarMaxim(2,5,9);
+
+// *EJ4 - Operador ternario dentro de un bucle
+
+function parOImpar(numbers){
+    for(let i = 0; i < numbers.length; i++){
+        let num = numbers[i];
+        if(num % 2 === 0){
+            console.log(`${num} es un número par.`);
+        } else{
+            console.log(`${num} es un número impar.`);
+        }
+    }
+}
+
+let num = [1,2,3,4,5];
+parOImpar(num);
