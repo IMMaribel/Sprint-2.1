@@ -38,4 +38,20 @@ class Person{
 }
 
     const person = new Person('Maribel');
-    person.greet()
+    person.greet();
+
+
+// *EJ4 - Arrow function dentro de un loop
+
+const printNumbers = (num) => {
+    
+    for (let i = 0; i < num.length; i++){
+        ((num) => {
+            console.log(num);
+        })(num[i]);
+    }
+}
+
+const num = [1,2,3,4,5];
+
+printNumbers(num);
