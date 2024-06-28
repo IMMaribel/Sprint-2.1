@@ -34,3 +34,17 @@ function esperarISaludar(name,Callback){
 esperarISaludar('Maribel', function(n){
     console.log(`${n}.`);
 });
+
+// *EJ4 - Callbacks con arrays
+
+function procesarElementos(array, Callback){
+    for(let i = 0; i < array.length; i++){
+        Callback(array[i]);
+    }
+}
+
+let array = [1,2,3,4,5];
+
+procesarElementos(array, function(a){
+    console.log(`${a}`);
+});
