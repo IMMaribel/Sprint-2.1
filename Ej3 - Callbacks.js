@@ -48,3 +48,15 @@ let array = [1,2,3,4,5];
 procesarElementos(array, function(a){
     console.log(`${a}`);
 });
+
+// *EJ5 - Callbacks con toUpperCase
+
+function procesarCadena(cadena, Callback){
+    Callback(cadena.toUpperCase());
+}
+
+let cadena = 'bootcamp de react en it academy';
+
+procesarCadena(cadena, function(c){
+    console.log(`${c}`);
+});
