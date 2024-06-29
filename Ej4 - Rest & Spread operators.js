@@ -30,3 +30,12 @@ let objeto2 = {...objeto1, nacionalidad:'Española'};
 console.log(objeto2);
 console.log(objeto1);
 
+// *EJ4 - Rest en Destructuring
+
+const elementos = [1, 'perro', 4, 'casa', 5];
+
+const [a, b, ...resto] = elementos;
+
+console.log("a:", a); 
+console.log("b:", b); 
+console.log("resto:", resto); 
