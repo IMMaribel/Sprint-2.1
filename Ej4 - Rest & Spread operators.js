@@ -20,3 +20,13 @@ function suma(...num){
 
 console.log(suma(5,2,8,0,3,4,12));
 console.log(suma(1,1,3));
+
+// *EJ3 - Copiando objetos con Spread
+
+let objeto1 = { nombre: 'Maribel', apellidos: 'Ibañez', edad:'34'};
+
+let objeto2 = {...objeto1, nacionalidad:'Española'};
+
+console.log(objeto2);
+console.log(objeto1);
+
