@@ -49,3 +49,11 @@ function tresParam(aa, bb, cc){
 let colores = ['amarillo', 'azul', 'rojo'];
 
 tresParam( ...colores);
+
+// *EJ6 - Fusionando objetos con Spread
+
+let obj1 = {animal: 'Gato', raza: 'Tricolor', genero: 'hembra'};
+let obj2 = {coche: 'Ferrari', modelo: 'F2425', neumaticos: 'Michelin'};
+
+let obj3 = {...obj1, ...obj2};
+console.log(obj3);
