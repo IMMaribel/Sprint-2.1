@@ -39,3 +39,13 @@ const [a, b, ...resto] = elementos;
 console.log("a:", a); 
 console.log("b:", b); 
 console.log("resto:", resto); 
+
+// *EJ5 - Spread en functions
+
+function tresParam(aa, bb, cc){
+    console.log(aa, bb, cc);
+}
+
+let colores = ['amarillo', 'azul', 'rojo'];
+
+tresParam( ...colores);
