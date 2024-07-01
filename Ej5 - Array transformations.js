@@ -20,7 +20,7 @@ let numPares = arrFilter.filter(function(y){
 console.log(arrFilter);
 console.log(numPares);
 
-// * EJ3 - Find
+// *EJ3 - Find
 
 let arrFind = [1, 10, 8, 11];
 
@@ -30,3 +30,14 @@ let mayorDiez = arrFind.find(function(z){
 
 console.log(arrFind);
 console.log(mayorDiez);
+
+// *EJ4 - Reduce
+
+const arrRed = [13, 7, 8, 21];
+
+let suma = arrRed.reduce(function(accumulator, valorActual){
+    return accumulator + valorActual;
+});
+
+console.log(arrRed);
+console.log(suma);
