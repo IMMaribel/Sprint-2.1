@@ -19,3 +19,14 @@ let numPares = arrFilter.filter(function(y){
 
 console.log(arrFilter);
 console.log(numPares);
+
+// * EJ3 - Find
+
+let arrFind = [1, 10, 8, 11];
+
+let mayorDiez = arrFind.find(function(z){
+    return z > 10;
+});
+
+console.log(arrFind);
+console.log(mayorDiez);
