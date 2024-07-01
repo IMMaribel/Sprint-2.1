@@ -17,3 +17,11 @@ const numeros = [1, 2, 3, 4, 5, 6];
 let pares = numeros.filter ((numeros) => numeros % 2 === 0);
 
 console.log(pares);
+
+// *Ej4 - For-in
+
+const obj = {nombre: 'Ona', edad: 25, ciudad: 'Barcelona'};
+
+for (const property in obj) {
+    console.log(`${property}: ${obj[property]}`);
+}
