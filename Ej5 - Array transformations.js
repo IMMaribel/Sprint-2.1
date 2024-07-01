@@ -41,3 +41,12 @@ let suma = arrRed.reduce(function(accumulator, valorActual){
 
 console.log(arrRed);
 console.log(suma);
+
+// *EJ5 - Conjunto de funciones en Array
+
+const arrMix = [1, 2, 7, 10, 15, 17, 11, 5, 8, 12, 9];
+
+let calculate = arrMix.filter(arrMix => arrMix >= 10).map(arrMix => arrMix * 2).reduce((acc, arrMix) => acc + arrMix);
+
+console.log(arrMix);
+console.log(calculate);
