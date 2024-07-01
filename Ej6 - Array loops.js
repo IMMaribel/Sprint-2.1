@@ -34,3 +34,9 @@ for (const valor of numeros) {
         break;
     }
 }
+
+// *6 - For-of con índex
+
+for (const [index, valor] of nombres.entries()) { 
+    console.log(index, valor);
+}
