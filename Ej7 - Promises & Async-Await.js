@@ -8,3 +8,9 @@ const myPromise = new Promise((resolve) => {
     }, 2000);
 });
 
+// *EJ2 - Uso de una promesa
+
+myPromise.then((message) => {
+    console.log(message);  // Esto imprimirá 'Hola, món' después de 2 segundos
+});
+
