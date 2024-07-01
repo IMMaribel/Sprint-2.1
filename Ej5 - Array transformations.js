@@ -50,3 +50,13 @@ let calculate = arrMix.filter(arrMix => arrMix >= 10).map(arrMix => arrMix * 2).
 
 console.log(arrMix);
 console.log(calculate);
+
+// *EJ6 - Every/Some
+
+const arrEverySome = [11, 12, 13, 14];
+
+let numMayorDiez = (arrEverySome) => arrEverySome > 10;
+
+console.log(arrEverySome);
+console.log(arrEverySome.every(numMayorDiez));
+
