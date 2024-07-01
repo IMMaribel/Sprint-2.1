@@ -25,3 +25,12 @@ const obj = {nombre: 'Ona', edad: 25, ciudad: 'Barcelona'};
 for (const property in obj) {
     console.log(`${property}: ${obj[property]}`);
 }
+
+// *EJ5 - For-of con break
+
+for (const valor of numeros) {
+    console.log(valor);
+    if(valor === 5){
+        break;
+    }
+}
