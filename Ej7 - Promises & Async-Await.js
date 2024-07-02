@@ -52,3 +52,16 @@ async function llamadaAsync(){
 }
 
 llamadaAsync()
+
+// *EJ5 - Gestión de errores con Async/Await
+
+async function llamadaAsync() {
+    try {
+        const result = await imprimirEnDosSeg();
+        console.log(result);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
+llamadaAsync();
