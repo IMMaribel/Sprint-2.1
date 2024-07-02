@@ -65,3 +65,21 @@ async function llamadaAsync() {
 }
 
 llamadaAsync();
+
+// *EJ6 - Promise.all
+
+let promise1 = new Promise ((resolve, reject) => {
+    setTimeout(resolve, 2000, 'Hola');
+});
+
+let promise2 = new Promise ((resolve, reject) => {
+    setTimeout(resolve, 3000, 'Adiós');
+});
+
+Promise.all([promise1, promise2])
+    .then((values) => {
+        console.log(values);
+    })
+    .catch((reason) => {
+        console.log(reason);
+    });
