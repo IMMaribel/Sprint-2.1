@@ -35,3 +35,20 @@ validInput('Hello')
     .catch((error) => {
         console.error(error);
     });
+
+// *EJ4 - Uso de Async/Await
+
+function imprimirEnDosSeg(){
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve('Hello, world');
+        }, 2000);
+    });
+}
+
+async function llamadaAsync(){
+    const result = await imprimirEnDosSeg();
+    console.log(result);
+}
+
+llamadaAsync()
